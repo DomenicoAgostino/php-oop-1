@@ -10,7 +10,7 @@ class Movie{
     $this->language = $_language;
   }
 
-  // SETTER
+
 
   public function setTitle($_title){
     $this->title = $_title ;
@@ -23,11 +23,11 @@ class Movie{
   }
 
 
-  // GETTER
+
   public function getTitle(){
     return $this->title;
   }
-  public function getroducer(){
+  public function getProducer(){
     return $this->producer;
   }
   public function getLanguage(){
